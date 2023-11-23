@@ -53,8 +53,8 @@ kill -9 <QEMU PID>
 ```
 
 **Restarting your Mac**
-What happens when I restart my Mac?
-Should I either:
-  * kill QEMU service every time
-  * uninstall QEMU server or prevent it from launching on boot
+What happens to my QEMU virtual environment after a Mac restart?
+  * Will I need to kill the QEMU service every time? **No**
+  * Will I need to uninstall QEMU server or prevent it from launching on boot? **No**
+  * Will `vagrant up` run without an issue after a Mac restart? **Yes** :tada:
 
